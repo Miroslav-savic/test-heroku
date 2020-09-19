@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 #{title}: #{binstance.status}
+  
+    p Do you really want to delete this BookInstance?
+
+    form(method='POST' action='')
+        div.form-group
+        input#bisid.form-control(type='hidden',name='bisid', required='true', value=binstance._id )
+
+        button.btn.btn-primary(type='submit') Delete
