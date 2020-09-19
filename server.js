@@ -25,6 +25,6 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/catalog', catalogRouter);  // Add catalog routes to middleware chain.
 
-app.listen(4000, () => {
+app.listen(80, () => {
     console.log('Server is running...');
 });
