@@ -28,7 +28,13 @@
     "node-redshift": "^0.1.5",
     "nodemon": "^2.0.4",
     "nonce": "^1.0.4",
-    "pug": "^3.0.0"
+    "pug": "^3.0.0",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "babel-install": "2.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
